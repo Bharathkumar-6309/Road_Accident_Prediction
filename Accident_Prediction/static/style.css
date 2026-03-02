@@ -1,0 +1,114 @@
+/* Background Image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background: url("newpng.PNG") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+/* Dark Overlay */
+.overlay {
+    position: absolute;
+    top: 20px;              /* small gap from top */
+    right: 1px;            /* small gap from right */
+
+    width: 28%;             /* reduced size */
+    min-height: 80vh;       /* reduced height */
+
+    background: transparent;
+    border-radius: 10px;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;     /* Line-wise down */
+    gap: 15px;                  /* Space between modules */
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;   /* Line wise down */
+    gap: 20px;                /* Space between buttons */
+    margin-top: 30px;
+}
+.btn {
+    display: block;
+    text-align: center;
+
+    padding: 14px 25px;       /* Bigger size */
+    font-size: 18px;          /* Larger text */
+    font-weight: bold;
+
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+.btn:hover {
+    background-color: #669514;
+    transform: scale(1.05);
+}
+
+/* Headings */
+h1, h2 {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* Form Container */
+form {
+    background: #ffffff;
+    color: #333;
+    width: 350px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e3c72;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff9800;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #e68900;
+}
